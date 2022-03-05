@@ -349,3 +349,78 @@ nav {
         padding: 0.5rem 1rem;
         color: #09192F;
         cursor: pointer; }
+  nav .nav__menu-toggler {
+    display: none;
+    margin-top: 0.6rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer; }
+    nav .nav__menu-toggler > span {
+      display: block;
+      position: absolute;
+      height: 0.4rem;
+      width: 50%;
+      background: #379683;
+      opacity: 1;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: 0.25s ease-in-out;
+      -moz-transition: 0.25s ease-in-out;
+      -o-transition: 0.25s ease-in-out;
+      transition: 0.25s ease-in-out; }
+    nav .nav__menu-toggler span:nth-child(even) {
+      left: 50%;
+      border-radius: 0 9px 9px 0; }
+    nav .nav__menu-toggler span:nth-child(odd) {
+      left: 0px;
+      border-radius: 9px 0 0 9px; }
+    nav .nav__menu-toggler span:nth-child(1),
+    nav .nav__menu-toggler span:nth-child(2) {
+      top: 0px; }
+    nav .nav__menu-toggler span:nth-child(3),
+    nav .nav__menu-toggler span:nth-child(4) {
+      top: 18px; }
+    nav .nav__menu-toggler span:nth-child(5),
+    nav .nav__menu-toggler span:nth-child(6) {
+      top: 36px; }
+    nav .nav__menu-toggler.open span:nth-child(1),
+    nav .nav__menu-toggler.open span:nth-child(6) {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    nav .nav__menu-toggler.open span:nth-child(2),
+    nav .nav__menu-toggler.open span:nth-child(5) {
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+    nav .nav__menu-toggler.open span:nth-child(1) {
+      left: 5px;
+      top: 7px; }
+    nav .nav__menu-toggler.open span:nth-child(2) {
+      left: calc(50% - 5px);
+      top: 7px; }
+    nav .nav__menu-toggler.open span:nth-child(3) {
+      left: -50%;
+      opacity: 0; }
+    nav .nav__menu-toggler.open span:nth-child(4) {
+      left: 100%;
+      opacity: 0; }
+    nav .nav__menu-toggler.open span:nth-child(5) {
+      left: 5px;
+      top: 29px; }
+    nav .nav__menu-toggler.open span:nth-child(6) {
+      left: calc(50% - 5px);
+      top: 29px; }
