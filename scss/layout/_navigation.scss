@@ -1,0 +1,67 @@
+nav {
+    height: 2.25rem;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    // NAV LOGO
+    .nav__logo {
+        img {
+            display: block;
+            width: 3.125rem;
+
+            // Convert logo to white color
+            filter: brightness(0) invert(1);
+        }
+    }
+
+    // NAV LINKS
+    .nav__links {
+        flex-basis: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        min-width: 28.6rem;
+        max-width: 33.75rem;
+
+        ul {
+            padding: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            list-style: none;
+
+            li {
+                a {
+                    color: $clr--light-blue;
+                    text-decoration: none;
+
+                    span {
+                        color: $clr--emerald-green;
+                    }
+
+                    &:hover {
+                        color: $clr--very-light-blue;
+                        span {
+                            color: $clr--emerald-green-light;
+                        }
+                    }
+                }
+
+                button {
+                    border: none;
+                    border-radius: 1rem;
+                    background-color: $clr--emerald-green;
+                    padding: 0.5rem 1rem;
+                    color: $clr--very-dark-blue;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
