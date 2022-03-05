@@ -303,3 +303,7 @@ template {
  */
 [hidden] {
   display: none; }
+
+body {
+  background-color: #09192F;
+  color: #5CDB95; }
