@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Nova+Mono&family=Playfair+Display:wght@400;700;900&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
