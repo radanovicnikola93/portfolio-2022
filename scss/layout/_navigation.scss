@@ -16,6 +16,21 @@ nav {
 
             // Convert logo to white color
             filter: brightness(0) invert(1);
+
+            &:hover {
+                animation: rotateLogo 1s ease-in-out;
+                animation-fill-mode: forwards;
+            }
+        }
+
+        @keyframes rotateLogo {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(90deg);
+            }
         }
     }
 

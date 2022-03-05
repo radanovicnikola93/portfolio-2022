@@ -319,6 +319,15 @@ nav {
     display: block;
     width: 3.125rem;
     filter: brightness(0) invert(1); }
+    nav .nav__logo img:hover {
+      animation: rotateLogo 1s ease-in-out;
+      animation-fill-mode: forwards; }
+
+@keyframes rotateLogo {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(90deg); } }
   nav .nav__links {
     flex-basis: 50%;
     display: flex;
