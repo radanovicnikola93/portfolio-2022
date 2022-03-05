@@ -1,28 +1,31 @@
 {
-  "name": "portfolio-page-nikola-radanovic",
-  "version": "1.0.0",
-  "description": "Portfolio page of Nikola Radanović",
-  "main": "./scripts/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/radanovicnikola93/portfolio-2022.git"
-  },
-  "keywords": [
-    "portfolio",
-    "js",
-    "html",
-    "scss",
-    "sass",
-    "css",
-    "programming"
-  ],
-  "author": "Nikola Radanović",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/radanovicnikola93/portfolio-2022/issues"
-  },
-  "homepage": "https://github.com/radanovicnikola93/portfolio-2022#readme"
+    "name": "portfolio-page-nikola-radanovic",
+    "version": "1.0.0",
+    "description": "Portfolio page of Nikola Radanović",
+    "main": "./scripts/index.js",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o css/ --recursive"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/radanovicnikola93/portfolio-2022.git"
+    },
+    "keywords": [
+        "portfolio",
+        "js",
+        "html",
+        "scss",
+        "sass",
+        "css",
+        "programming"
+    ],
+    "author": "Nikola Radanović",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/radanovicnikola93/portfolio-2022/issues"
+    },
+    "homepage": "https://github.com/radanovicnikola93/portfolio-2022#readme",
+    "dependencies": {
+        "node-sass": "^7.0.1"
+    }
 }
