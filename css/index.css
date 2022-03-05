@@ -357,7 +357,8 @@ nav {
         background-color: #379683;
         padding: 0.5rem 1rem;
         color: #09192F;
-        cursor: pointer; }
+        cursor: pointer;
+        text-transform: uppercase; }
         nav .nav__links ul li button:hover {
           background-color: #8EE4AF;
           transform: scale(1);
