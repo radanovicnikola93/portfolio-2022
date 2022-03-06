@@ -117,14 +117,11 @@ nav {
 
     //  MEDIA QUERIES
     @include for-phones-and-tablets-only {
-        nav {
-        }
-
         .nav__links.active-nav-links {
             // TODO TO CHECK LATER!
             -webkit-font-smoothing: antialiased;
             transform-origin: 0% 0%;
-            transform: translate(0, 150%); 
+            transform: translate(0, 150%);
             transition: transform 600ms cubic-bezier(0.77, 0.2, 0.05, 1);
         }
 
