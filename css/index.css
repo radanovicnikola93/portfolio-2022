@@ -310,11 +310,12 @@ body {
   font-family: "Abel", sans-serif; }
 
 nav {
-  height: 2.25rem;
+  height: 5vh;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
   nav .nav__logo img {
     display: block;
     width: 3.125rem;
@@ -449,3 +450,21 @@ nav {
     nav .nav__menu-toggler.open span:nth-child(6) {
       left: calc(50% - 5px);
       top: 29px; }
+  @media (max-width: 768px) {
+    nav .nav__links.active-nav-links {
+      -webkit-font-smoothing: antialiased;
+      transform-origin: 0% 0%;
+      transform: translate(0, 150%);
+      transition: transform 600ms cubic-bezier(0.77, 0.2, 0.05, 1); }
+    nav .nav__links {
+      position: absolute;
+      left: 0;
+      min-width: 100vw;
+      top: -1000px;
+      height: 87vh; }
+      nav .nav__links ul {
+        flex-direction: column;
+        height: 50%;
+        font-size: 1.5rem; }
+    nav .nav__menu-toggler {
+      display: block; } }
