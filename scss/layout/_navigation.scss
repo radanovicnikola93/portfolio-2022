@@ -1,23 +1,18 @@
 @import "../components/nav-menu-btn";
 
 nav {
-    height: 5vh; // TO FIX LATER
-    padding: 2rem;
+    height: 8vh;
+    padding: 3rem;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    position: relative;
 
     // NAV LOGO
     .nav__logo {
         img {
             display: block;
             width: 3.125rem;
-
-            // Convert logo to white color
-            filter: brightness(0) invert(1);
 
             &:hover {
                 animation: rotateLogo 1s ease-in-out;
@@ -117,29 +112,14 @@ nav {
 
     //  MEDIA QUERIES
     @include for-phones-and-tablets-only {
-        .nav__links.active-nav-links {
-            top: 0;
-            -webkit-font-smoothing: antialiased;
-            animation: showNavLinks 600ms cubic-bezier(0.77,0.2,0.05,1.0);
-
-        }
-
-        @keyframes showNavLinks {
-            from {
-                top: -1000%;
-            }
-
-            to {
-                top: 0;
-            }
-        }
-
         .nav__links {
             position: absolute;
             left: 0;
             min-width: 100vw;
-            top: -1000px;
-            height: 100vh;
+            top: 11vh;
+            height: 89vh;
+            transform: translateY(-120%);
+            transition: transform 600ms ease;
 
             // Flex
             ul {
@@ -147,6 +127,10 @@ nav {
                 height: 50%;
                 font-size: 1.2rem;
             }
+        }
+
+        .nav__links.active-nav-links {
+            transform: translateY(0%);
         }
 
         .nav__menu-toggler {
