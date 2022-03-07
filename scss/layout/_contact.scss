@@ -1,0 +1,30 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+
+    .contact__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+        button {
+            cursor: pointer;
+            background-color: $clr--very-dark-blue;
+            border: 1px solid $clr--emerald-green;
+            color: $clr--emerald-green;
+            padding: 1rem 2rem;
+            width: 30%;
+            border-radius: 1rem;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: $clr--emerald-green-light;
+                color: $clr--dark-imperial-blue;
+                border: 1px solid $clr--dark-imperial-blue;
+            }
+        }
+    }
+}

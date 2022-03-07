@@ -668,3 +668,27 @@ article {
 
 .projects .learning-projects > div > div {
   flex-direction: row-reverse; }
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .contact .contact__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; }
+    .contact .contact__container button {
+      cursor: pointer;
+      background-color: #09192F;
+      border: 1px solid #379683;
+      color: #379683;
+      padding: 1rem 2rem;
+      width: 30%;
+      border-radius: 1rem;
+      text-transform: uppercase; }
+      .contact .contact__container button:hover {
+        background-color: #8EE4AF;
+        color: #05386B;
+        border: 1px solid #05386B; }
