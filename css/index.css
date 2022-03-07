@@ -410,7 +410,7 @@ nav {
       -o-transition: 0.25s ease-in-out;
       transition: 0.25s ease-in-out; }
     nav .nav__menu-toggler span:nth-child(even) {
-      left: 50%;
+      left: 45%;
       border-radius: 0 9px 9px 0; }
     nav .nav__menu-toggler span:nth-child(odd) {
       left: 0px;
