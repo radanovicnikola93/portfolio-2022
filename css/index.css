@@ -532,3 +532,18 @@ header {
   width: 80%;
   max-width: 1440px;
   margin: 0 auto; }
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .about-me .about-me__container {
+    display: flex; }
+    .about-me .about-me__container > div {
+      width: 100%; }
+    .about-me .about-me__container .about-me__container--image {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end; }
+      .about-me .about-me__container .about-me__container--image img {
+        width: 70%; }
