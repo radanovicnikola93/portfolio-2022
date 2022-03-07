@@ -602,14 +602,15 @@ article {
 .projects .projects__container {
   display: flex;
   flex-direction: column;
-  gap: 3rem; }
+  gap: 10rem; }
 
 .projects .row {
   display: flex;
   flex-direction: column;
   gap: 2rem; }
   .projects .row h4 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
     color: #379683; }
 
 .projects .projects-gallery {
@@ -633,6 +634,7 @@ article {
 .projects .project-description--header {
   text-align: right; }
   .projects .project-description--header h5 {
+    font-family: "Nova Mono", monospace;
     font-size: 1.2rem;
     color: #8EE4AF; }
 
@@ -666,8 +668,14 @@ article {
       .projects .project-description--inner div a:hover {
         color: #8EE4AF; }
 
-.projects .learning-projects > div > div {
-  flex-direction: row-reverse; }
+.projects .learning-projects {
+  align-items: flex-end; }
+  .projects .learning-projects > div > div {
+    flex-direction: row-reverse; }
+  .projects .learning-projects .project-description--header {
+    text-align: left; }
+  .projects .learning-projects .project-description--inner {
+    left: 0; }
 
 .contact {
   display: flex;
