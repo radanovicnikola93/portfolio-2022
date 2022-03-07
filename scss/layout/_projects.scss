@@ -2,7 +2,7 @@
     .projects__container {
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        gap: 10rem;
     }
 
     .row {
@@ -11,7 +11,8 @@
         gap: 2rem;
 
         h4 {
-            font-size: 1.5rem;
+            font-size: 2rem;
+            text-transform: uppercase;
             color: $clr--emerald-green;
         }
     }
@@ -44,6 +45,7 @@
         text-align: right;
         
         h5 {
+            font-family: $ff--nova-mono;
             font-size: 1.2rem;
             color: $clr--emerald-green-light;
         }
@@ -92,10 +94,19 @@
     }
 
     .learning-projects {
+        align-items: flex-end;
         > div {
             > div {
                 flex-direction: row-reverse;
             }
+        }
+
+        .project-description--header {
+            text-align: left;
+        }
+
+        .project-description--inner {
+            left: 0;
         }
     }
 }
