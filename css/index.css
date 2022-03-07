@@ -615,7 +615,7 @@ article {
 .projects .projects-gallery {
   display: flex;
   flex-direction: column;
-  gap: 2rem; }
+  gap: 5rem; }
 
 .projects .projects-gallery__project {
   display: flex;
