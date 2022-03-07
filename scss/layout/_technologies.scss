@@ -10,9 +10,13 @@
     .col {
         display: flex;
         gap: 3rem;
+        padding-bottom: 2rem;
+
+        border-bottom: 1px solid $clr--emerald-green;
     }
 
     .col--header {
+        flex-basis: 20%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -25,6 +29,7 @@
     }
 
     .col--content {
+        flex-basis: 80%;
         ul {
             list-style: none;
             display: flex;
@@ -32,11 +37,6 @@
             gap: 2rem;
 
             li {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 2rem;
-
                 a {
                     text-decoration: none;
                     color: $clr--emerald-green;
