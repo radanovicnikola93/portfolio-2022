@@ -472,42 +472,42 @@ nav {
     nav .nav__menu-toggler {
       display: block; } }
 
-.personal-links {
+.personal-social-media {
   height: 30vh;
   position: fixed;
   left: 3em;
   bottom: 3em; }
-  .personal-links div {
+  .personal-social-media div {
     height: 100%; }
-    .personal-links div ul {
+    .personal-social-media div ul {
       height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       list-style: none; }
-      .personal-links div ul li {
+      .personal-social-media div ul li {
         font-size: 1.3rem; }
-        .personal-links div ul li a {
+        .personal-social-media div ul li a {
           color: #A5B1D6; }
-          .personal-links div ul li a:hover {
+          .personal-social-media div ul li a:hover {
             color: #8EE4AF; }
 
-.personal-email {
+.personal-contact {
   height: 30vh;
   position: fixed;
   right: 3em;
   bottom: 3em; }
-  .personal-email div {
+  .personal-contact div {
     height: 100%; }
-    .personal-email div ul {
+    .personal-contact div ul {
       height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       list-style: none; }
-      .personal-email div ul li {
+      .personal-contact div ul li {
         font-size: 1.3rem; }
-        .personal-email div ul li a {
+        .personal-contact div ul li a {
           color: #A5B1D6; }
-          .personal-email div ul li a:hover {
+          .personal-contact div ul li a:hover {
             color: #8EE4AF; }
