@@ -472,6 +472,22 @@ nav {
     nav .nav__menu-toggler {
       display: block; } }
 
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh; }
+  header h1 {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 7vw; }
+  header h2 {
+    font-size: 2vw; }
+    header h2 span {
+      text-decoration: underline; }
+
 .personal-social-media {
   height: 30vh;
   position: fixed;
