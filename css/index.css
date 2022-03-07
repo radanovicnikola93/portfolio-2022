@@ -476,7 +476,7 @@ nav {
   height: 30vh;
   position: fixed;
   left: 3em;
-  bottom: 2rem; }
+  bottom: 3em; }
   .personal-links div {
     height: 100%; }
     .personal-links div ul {
@@ -490,4 +490,24 @@ nav {
         .personal-links div ul li a {
           color: #A5B1D6; }
           .personal-links div ul li a:hover {
+            color: #8EE4AF; }
+
+.personal-email {
+  height: 30vh;
+  position: fixed;
+  right: 3em;
+  bottom: 3em; }
+  .personal-email div {
+    height: 100%; }
+    .personal-email div ul {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      list-style: none; }
+      .personal-email div ul li {
+        font-size: 1.3rem; }
+        .personal-email div ul li a {
+          color: #A5B1D6; }
+          .personal-email div ul li a:hover {
             color: #8EE4AF; }
