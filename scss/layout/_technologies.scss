@@ -1,8 +1,5 @@
 .technologies {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 3rem;
+    align-items: flex-end !important;
 
     .technologies__container {
         display: flex;

@@ -553,10 +553,7 @@ header {
         width: 100%; }
 
 .technologies {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 3rem; }
+  align-items: flex-end !important; }
   .technologies .technologies__container {
     display: flex;
     flex-direction: column;
@@ -590,3 +587,9 @@ header {
 
 article {
   min-height: 100vh; }
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem; }
