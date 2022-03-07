@@ -1,0 +1,54 @@
+.technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3rem;
+
+    .technologies__container {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .col {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .col--header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+
+        i {
+            font-size: 3rem;
+        }
+    }
+
+    .col--content {
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+
+                a {
+                    text-decoration: none;
+                    color: $clr--emerald-green;
+
+                    &:hover {
+                        color: $clr--emerald-green-light;
+                    }
+                }
+            }
+        }
+    }
+}
