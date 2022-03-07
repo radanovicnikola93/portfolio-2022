@@ -560,8 +560,7 @@ header {
 .technologies .col {
   display: flex;
   gap: 3rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #379683; }
+  padding-bottom: 2rem; }
 
 .technologies .col--header {
   flex-basis: 20%;

@@ -1,5 +1,4 @@
 .technologies {
-
     .technologies__container {
         display: flex;
         flex-direction: column;
@@ -10,8 +9,6 @@
         display: flex;
         gap: 3rem;
         padding-bottom: 2rem;
-
-        border-bottom: 1px solid $clr--emerald-green;
     }
 
     .col--header {
