@@ -471,3 +471,23 @@ nav {
       transform: translateY(0%); }
     nav .nav__menu-toggler {
       display: block; } }
+
+.personal-links {
+  height: 30vh;
+  position: fixed;
+  left: 2em;
+  bottom: 2rem; }
+  .personal-links div {
+    height: 100%; }
+    .personal-links div ul {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      list-style: none; }
+      .personal-links div ul li {
+        font-size: 1.3rem; }
+        .personal-links div ul li a {
+          color: #A5B1D6; }
+          .personal-links div ul li a:hover {
+            color: #8EE4AF; }
