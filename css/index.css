@@ -597,7 +597,10 @@ article {
   gap: 3rem; }
 
 .article__header {
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  border-bottom: 1px solid #379683;
+  width: 100%; }
   .article__header span {
     color: #379683; }
 
