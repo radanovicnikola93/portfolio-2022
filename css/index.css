@@ -511,3 +511,8 @@ nav {
           color: #A5B1D6; }
           .personal-contact div ul li a:hover {
             color: #8EE4AF; }
+
+.container {
+  width: 80%;
+  max-width: 1024px;
+  margin: 0 auto; }
