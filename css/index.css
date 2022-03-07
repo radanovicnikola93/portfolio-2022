@@ -609,7 +609,8 @@ article {
   flex-direction: column;
   gap: 2rem; }
   .projects .row h4 {
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    color: #8EE4AF; }
 
 .projects .projects-gallery {
   display: flex;
