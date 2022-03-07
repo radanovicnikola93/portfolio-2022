@@ -4,3 +4,11 @@
     align-items: flex-start;
     gap: 3rem;
 }
+
+.article__header {
+    font-size: 2rem;
+
+    span {
+        color: $clr--emerald-green;
+    }
+}

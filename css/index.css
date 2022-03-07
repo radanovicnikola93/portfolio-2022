@@ -594,6 +594,11 @@ article {
   align-items: flex-start;
   gap: 3rem; }
 
+.article__header {
+  font-size: 2rem; }
+  .article__header span {
+    color: #379683; }
+
 .projects .projects__container {
   display: flex;
   flex-direction: column;
