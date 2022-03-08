@@ -456,11 +456,13 @@ nav {
       top: 64.44%; }
   @media (max-width: 768px) {
     nav .nav__links {
+      background-color: #09192F;
+      z-index: 999;
       position: absolute;
       left: 0;
       min-width: 100vw;
       top: 11vh;
-      height: 89vh;
+      height: 92vh;
       transform: translateY(-120%);
       transition: transform 600ms ease; }
       nav .nav__links ul {

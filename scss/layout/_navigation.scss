@@ -113,11 +113,13 @@ nav {
     //  MEDIA QUERIES
     @include for-phones-and-tablets-only {
         .nav__links {
+            background-color: $clr--very-dark-blue;
+            z-index: 999;
             position: absolute;
             left: 0;
             min-width: 100vw;
             top: 11vh;
-            height: 89vh;
+            height: 92vh;
             transform: translateY(-120%);
             transition: transform 600ms ease;
 
