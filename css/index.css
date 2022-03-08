@@ -357,7 +357,7 @@ nav {
           color: #C6D4ff; }
           nav .nav__links ul li a:hover span {
             color: #8EE4AF; }
-      nav .nav__links ul li button {
+      nav .nav__links ul li .btn-link {
         border: none;
         border-radius: 1rem;
         background-color: #379683;
@@ -365,7 +365,7 @@ nav {
         color: #09192F;
         cursor: pointer;
         text-transform: uppercase; }
-        nav .nav__links ul li button:hover {
+        nav .nav__links ul li .btn-link:hover {
           background-color: #8EE4AF;
           transform: scale(1);
           animation: pulse 2s infinite; }
