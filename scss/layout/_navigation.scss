@@ -17,21 +17,21 @@ nav {
             width: 3.125rem;
             height: auto;
 
-            @include for-phones-and-tablets-only {
-                width: 6rem;
-                position: absolute;
-                left: 50%;
-                transform: translateX(-50%);
-                top: 20vh;
-            }
+            // @include for-phones-and-tablets-only {
+            //     width: 6rem;
+            //     position: absolute;
+            //     left: 50%;
+            //     transform: translateX(-50%);
+            //     top: 20vh;
+            // }
 
             &:hover {
                 animation: rotateLogo 1s ease-in-out;
                 animation-fill-mode: forwards;
 
-                @include for-phones-and-tablets-only {
-                    animation: none;
-                }
+                // @include for-phones-and-tablets-only {
+                //     animation: none;
+                // }
             }
         }
 

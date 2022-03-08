@@ -31,19 +31,9 @@ nav {
     display: block;
     width: 3.125rem;
     height: auto; }
-    @media (max-width: 768px) {
-      nav .nav__logo img {
-        width: 6rem;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 20vh; } }
     nav .nav__logo img:hover {
       animation: rotateLogo 1s ease-in-out;
       animation-fill-mode: forwards; }
-      @media (max-width: 768px) {
-        nav .nav__logo img:hover {
-          animation: none; } }
 
 @keyframes rotateLogo {
   0% {
