@@ -750,6 +750,9 @@ article {
     gap: 1em;
     width: 100%;
     color: #5CDB95; }
+    .projects .project-description--inner ul a {
+      color: #5CDB95;
+      text-decoration: none; }
   .projects .project-description--inner div {
     width: 100%;
     display: flex;
