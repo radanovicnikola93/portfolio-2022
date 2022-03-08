@@ -739,6 +739,8 @@ article {
   flex-direction: column;
   justify-content: space-between;
   gap: 0.5em; }
+  .projects .project-description--inner p a {
+    color: #C6D4ff; }
   @media (max-width: 768px) {
     .projects .project-description--inner {
       position: static;

@@ -81,6 +81,12 @@
         justify-content: space-between;
         gap: 0.5em;
 
+        p {
+            a {
+                color: $clr--very-light-blue;
+            }
+        }
+
         @include for-phones-and-tablets-only {
             position: static;
             transform: translateY(0%);
