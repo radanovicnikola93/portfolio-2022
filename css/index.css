@@ -411,7 +411,8 @@ article {
 .projects .project-image {
   width: 100%; }
   .projects .project-image img {
-    width: 100%; }
+    width: 100%;
+    height: auto; }
 
 .projects .project-description {
   width: 100%; }
