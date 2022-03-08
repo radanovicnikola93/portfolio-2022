@@ -8,6 +8,8 @@ nav {
     justify-content: space-between;
     align-items: center;
 
+    position: relative;
+
     // NAV LOGO
     .nav__logo {
         img {
@@ -15,9 +17,22 @@ nav {
             width: 3.125rem;
             height: auto;
 
+            @include for-phones-and-tablets-only {
+                width: 6rem;
+                position: absolute;
+                left: 28vh;
+                top: 20vh;
+            }
+
             &:hover {
                 animation: rotateLogo 1s ease-in-out;
                 animation-fill-mode: forwards;
+
+                @include for-phones-and-tablets-only {
+                    animation: none;
+                    transition: transform 1s ease;
+                    transform:rotate(90deg);
+                }
             }
         }
 

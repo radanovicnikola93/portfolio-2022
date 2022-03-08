@@ -25,14 +25,26 @@ nav {
   padding: 3rem;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
   nav .nav__logo img {
     display: block;
     width: 3.125rem;
     height: auto; }
+    @media (max-width: 768px) {
+      nav .nav__logo img {
+        width: 6rem;
+        position: absolute;
+        left: 28vh;
+        top: 20vh; } }
     nav .nav__logo img:hover {
       animation: rotateLogo 1s ease-in-out;
       animation-fill-mode: forwards; }
+      @media (max-width: 768px) {
+        nav .nav__logo img:hover {
+          animation: none;
+          transition: transform 1s ease;
+          transform: rotate(90deg); } }
 
 @keyframes rotateLogo {
   0% {
