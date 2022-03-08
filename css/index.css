@@ -791,7 +791,9 @@ article {
   align-items: center;
   text-align: left; }
   .contact p {
-    text-align: justify; }
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 4.5em; }
   @media (max-width: 768px) {
     .contact {
       min-height: 50vh;

@@ -4,7 +4,9 @@
     text-align: left;
 
     p {
+        font-size: 1.5rem;
         text-align: justify;
+        margin-bottom: 4.5em;
     }
 
     @include for-phones-and-tablets-only {
