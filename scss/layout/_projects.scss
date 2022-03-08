@@ -115,6 +115,10 @@
 
     .learning-projects {
         align-items: flex-end;
+
+        @include for-phones-and-tablets-only {
+            align-items: flex-start;
+        }
         > div {
             > div {
                 flex-direction: row-reverse;

@@ -755,6 +755,9 @@ article {
 
 .projects .learning-projects {
   align-items: flex-end; }
+  @media (max-width: 768px) {
+    .projects .learning-projects {
+      align-items: flex-start; } }
   .projects .learning-projects > div > div {
     flex-direction: row-reverse; }
     @media (max-width: 768px) {
