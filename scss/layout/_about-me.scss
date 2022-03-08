@@ -8,6 +8,10 @@
         display: flex;
         gap: 2em;
 
+        @include for-phones-and-tablets-only {
+            gap: 0em;
+        }
+
         h5 {
             font-family: $ff--nova-mono;
             font-size: 1.2rem;
@@ -35,6 +39,10 @@
             justify-content: flex-end;
             img {
                 width: 100%;
+            }
+
+            @include for-phones-and-tablets-only {
+                margin-bottom: 2em;
             }
         }
     }

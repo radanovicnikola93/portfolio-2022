@@ -578,6 +578,9 @@ header {
   .about-me .about-me__container {
     display: flex;
     gap: 2em; }
+    @media (max-width: 768px) {
+      .about-me .about-me__container {
+        gap: 0em; } }
     .about-me .about-me__container h5 {
       font-family: "Nova Mono", monospace;
       font-size: 1.2rem;
@@ -597,6 +600,9 @@ header {
       justify-content: flex-end; }
       .about-me .about-me__container .about-me__container--image img {
         width: 100%; }
+      @media (max-width: 768px) {
+        .about-me .about-me__container .about-me__container--image {
+          margin-bottom: 2em; } }
   @media (max-width: 768px) {
     .about-me .about-me__container {
       flex-direction: column-reverse; }
