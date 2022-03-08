@@ -20,7 +20,8 @@ nav {
             @include for-phones-and-tablets-only {
                 width: 6rem;
                 position: absolute;
-                left: 28vh;
+                left: 50%;
+                transform: translateX(-50%);
                 top: 20vh;
             }
 
@@ -30,8 +31,6 @@ nav {
 
                 @include for-phones-and-tablets-only {
                     animation: none;
-                    transition: transform 1s ease;
-                    transform:rotate(90deg);
                 }
             }
         }

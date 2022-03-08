@@ -35,16 +35,15 @@ nav {
       nav .nav__logo img {
         width: 6rem;
         position: absolute;
-        left: 28vh;
+        left: 50%;
+        transform: translateX(-50%);
         top: 20vh; } }
     nav .nav__logo img:hover {
       animation: rotateLogo 1s ease-in-out;
       animation-fill-mode: forwards; }
       @media (max-width: 768px) {
         nav .nav__logo img:hover {
-          animation: none;
-          transition: transform 1s ease;
-          transform: rotate(90deg); } }
+          animation: none; } }
 
 @keyframes rotateLogo {
   0% {
