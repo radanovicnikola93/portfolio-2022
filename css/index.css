@@ -28,7 +28,8 @@ nav {
   align-items: center; }
   nav .nav__logo img {
     display: block;
-    width: 3.125rem; }
+    width: 3.125rem;
+    height: auto; }
     nav .nav__logo img:hover {
       animation: rotateLogo 1s ease-in-out;
       animation-fill-mode: forwards; }
@@ -308,7 +309,8 @@ header {
       justify-content: center; }
       .about-me .about-me__container .about-me__container--image img {
         border-radius: 1em;
-        width: 340px; }
+        width: 340px;
+        height: auto; }
         @media (max-width: 768px) {
           .about-me .about-me__container .about-me__container--image img {
             width: 100%; } }

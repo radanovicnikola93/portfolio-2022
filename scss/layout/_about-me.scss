@@ -40,6 +40,7 @@
             img {
                 border-radius: 1em;
                 width: 340px;
+                height: auto;
 
                 @include for-phones-and-tablets-only {
                     width: 100%;

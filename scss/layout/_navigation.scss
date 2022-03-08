@@ -13,6 +13,7 @@ nav {
         img {
             display: block;
             width: 3.125rem;
+            height: auto;
 
             &:hover {
                 animation: rotateLogo 1s ease-in-out;
