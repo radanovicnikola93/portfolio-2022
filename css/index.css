@@ -560,6 +560,9 @@ header {
   width: 60%;
   max-width: 1440px;
   margin: 0 auto; }
+  @media (max-width: 424.999px) {
+    .container {
+      width: 80%; } }
 
 .about-me {
   display: flex;
