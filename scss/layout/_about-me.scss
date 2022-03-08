@@ -6,15 +6,30 @@
 
     .about-me__container {
         display: flex;
+        gap: 2em;
+
+        h5 {
+            font-family: $ff--nova-mono;
+            font-size: 1.2rem;
+            color: $clr--emerald-green-light;
+        }
 
         .about-me__container--presentation {
-            width: 70%;
+            width: 50%;
             display: flex;
-            align-items: center;
+            flex-direction: column;
+            gap: 2em;
+            align-items: flex-start;
+
+            .presentation--hobbies {
+                ul {
+                    list-style: none;
+                }
+            }
         }
 
         .about-me__container--image {
-            width: 30%;
+            width: 50%;
             display: flex;
             align-items: flex-end;
             justify-content: flex-end;

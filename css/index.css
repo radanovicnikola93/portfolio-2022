@@ -539,13 +539,22 @@ header {
   align-items: flex-start;
   gap: 3rem; }
   .about-me .about-me__container {
-    display: flex; }
+    display: flex;
+    gap: 2em; }
+    .about-me .about-me__container h5 {
+      font-family: "Nova Mono", monospace;
+      font-size: 1.2rem;
+      color: #8EE4AF; }
     .about-me .about-me__container .about-me__container--presentation {
-      width: 70%;
+      width: 50%;
       display: flex;
-      align-items: center; }
+      flex-direction: column;
+      gap: 2em;
+      align-items: flex-start; }
+      .about-me .about-me__container .about-me__container--presentation .presentation--hobbies ul {
+        list-style: none; }
     .about-me .about-me__container .about-me__container--image {
-      width: 30%;
+      width: 50%;
       display: flex;
       align-items: flex-end;
       justify-content: flex-end; }
