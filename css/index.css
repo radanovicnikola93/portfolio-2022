@@ -290,7 +290,7 @@ header {
     @media (max-width: 768px) {
       .about-me .about-me__container {
         gap: 0em; } }
-    .about-me .about-me__container h5 {
+    .about-me .about-me__container h3 {
       font-family: "Nova Mono", monospace;
       font-size: 1.2rem;
       color: #8EE4AF; }
@@ -391,7 +391,7 @@ article {
   display: flex;
   flex-direction: column;
   gap: 2rem; }
-  .projects .row h4 {
+  .projects .row h3 {
     font-size: 2rem;
     text-transform: uppercase;
     color: #379683; }
@@ -425,12 +425,12 @@ article {
     .projects .project-description--header {
       text-align: center;
       margin-bottom: 2em; } }
-  .projects .project-description--header h5 {
+  .projects .project-description--header h4 {
     font-family: "Nova Mono", monospace;
     font-size: 1.2rem;
     color: #8EE4AF; }
     @media (max-width: 768px) {
-      .projects .project-description--header h5 {
+      .projects .project-description--header h4 {
         font-size: 1.7rem; } }
 
 .projects .project-description--inner {
