@@ -787,6 +787,9 @@ article {
       width: 30%;
       border-radius: 1rem;
       text-transform: uppercase; }
+      @media (max-width: 768px) {
+        .contact .contact__container button {
+          width: 50%; } }
       .contact .contact__container button:hover {
         background-color: #8EE4AF;
         color: #05386B;
