@@ -38,4 +38,20 @@
             }
         }
     }
+
+    @include for-phones-and-tablets-only {
+        .about-me__container {
+            flex-direction: column-reverse;
+        }
+
+        .about-me__container--presentation {
+            width: 100% !important;
+
+            text-align:justify;
+        }
+
+        .about-me__container--image {
+            width: 100% !important;
+        }
+    }
 }

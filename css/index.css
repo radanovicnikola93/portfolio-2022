@@ -588,6 +588,14 @@ header {
       justify-content: flex-end; }
       .about-me .about-me__container .about-me__container--image img {
         width: 100%; }
+  @media (max-width: 768px) {
+    .about-me .about-me__container {
+      flex-direction: column-reverse; }
+    .about-me .about-me__container--presentation {
+      width: 100% !important;
+      text-align: justify; }
+    .about-me .about-me__container--image {
+      width: 100% !important; } }
 
 .technologies .technologies__container {
   display: flex;
