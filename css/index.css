@@ -489,6 +489,12 @@ header {
     font-size: 2vw; }
     header h2 span {
       text-decoration: underline; }
+  @media (max-width: 424.999px) {
+    header h1 {
+      font-size: 15vw;
+      margin-bottom: 0.7em; }
+    header h2 {
+      font-size: 5vw; } }
 
 .personal-social-media {
   height: 30vh;

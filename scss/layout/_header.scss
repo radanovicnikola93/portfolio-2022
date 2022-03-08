@@ -18,4 +18,15 @@ header {
             text-decoration: underline;
         }
     }
+
+    @include for-phone-only {
+        h1 {
+            font-size: 15vw;
+            margin-bottom: 0.7em;
+        }
+
+        h2 {
+            font-size: 5vw;
+        }
+    }
 }
