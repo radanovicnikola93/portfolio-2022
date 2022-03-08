@@ -19,7 +19,7 @@ header {
         }
     }
 
-    @include for-phone-only {
+    @include for-phones-and-tablets-only{
         h1 {
             font-size: 15vw;
             margin-bottom: 0.7em;
