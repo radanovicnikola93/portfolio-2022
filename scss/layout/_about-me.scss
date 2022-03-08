@@ -35,10 +35,15 @@
         .about-me__container--image {
             width: 50%;
             display: flex;
-            align-items: flex-end;
-            justify-content: flex-end;
+            align-items: center;
+            justify-content: center;
             img {
-                width: 100%;
+                border-radius: 1em;
+                width: 340px;
+
+                @include for-phones-and-tablets-only {
+                    width: 100%;
+                }
             }
 
             @include for-phones-and-tablets-only {
