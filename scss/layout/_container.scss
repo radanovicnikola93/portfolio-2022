@@ -3,7 +3,7 @@
     max-width: 1440px;
     margin: 0 auto;
 
-    @include for-phone-only {
+    @include for-phones-and-tablets-only {
         width: 80%;
     }
 }
