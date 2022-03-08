@@ -104,6 +104,10 @@
             a {
                 color: $clr--emerald-green-soft;
                 text-decoration: none;
+
+                &:hover {
+                    color: $clr--very-light-blue;
+                }
             }
         }
 

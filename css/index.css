@@ -755,6 +755,8 @@ article {
     .projects .project-description--inner ul a {
       color: #5CDB95;
       text-decoration: none; }
+      .projects .project-description--inner ul a:hover {
+        color: #C6D4ff; }
   .projects .project-description--inner div {
     width: 100%;
     display: flex;
