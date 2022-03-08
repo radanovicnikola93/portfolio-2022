@@ -1,16 +1,15 @@
 .contact {
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    text-align: center;
+    align-items: center;
+    text-align: left;
+
+    p {
+        text-align: justify;
+    }
 
     @include for-phones-and-tablets-only {
         min-height: 50vh;
         text-align: left;
-
-        p {
-            text-align: justify;
-        }
     }
 
     .contact__container {
@@ -19,24 +18,43 @@
         align-items: center;
         gap: 2rem;
 
-        button {
-            cursor: pointer;
-            background-color: $clr--very-dark-blue;
-            border: 1px solid $clr--emerald-green;
-            color: $clr--emerald-green;
-            padding: 1rem 2rem;
-            width: 30%;
+        .btn-contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            width: 10rem;
+            height: 3em;
+            border: none;
             border-radius: 1rem;
-            text-transform: uppercase;
+            background-color: $clr--emerald-green;
+            padding: 0.5rem 1rem;
+            color: $clr--very-dark-blue;
+            cursor: pointer;
 
-            @include for-phones-and-tablets-only {
-                width: 50%;
-            }
+            text-transform: uppercase;
 
             &:hover {
                 background-color: $clr--emerald-green-light;
-                color: $clr--dark-imperial-blue;
-                border: 1px solid $clr--dark-imperial-blue;
+                transform: scale(1);
+                animation: pulse 2s infinite;
+            }
+
+            @keyframes pulse {
+                0% {
+                    transform: scale(0.95);
+                    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+                }
+
+                70% {
+                    transform: scale(1);
+                    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+                }
+
+                100% {
+                    transform: scale(0.95);
+                    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+                }
             }
         }
     }
