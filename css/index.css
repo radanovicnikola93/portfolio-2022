@@ -446,8 +446,15 @@ article {
   flex-direction: column;
   justify-content: space-between;
   gap: 0.5em; }
+  @media (max-width: 768px) {
+    .projects .project-description--inner {
+      gap: 2em; } }
   .projects .project-description--inner p a {
     color: #C6D4ff; }
+  @media (max-width: 768px) {
+    .projects .project-description--inner p {
+      text-align: justify;
+      font-size: 1.1rem; } }
   @media (max-width: 768px) {
     .projects .project-description--inner {
       position: static;
@@ -459,6 +466,10 @@ article {
     gap: 1em;
     width: 100%;
     color: #5CDB95; }
+    @media (max-width: 768px) {
+      .projects .project-description--inner ul {
+        justify-content: space-evenly;
+        font-size: 1.1rem; } }
     .projects .project-description--inner ul a {
       color: #5CDB95;
       text-decoration: none; }
@@ -469,9 +480,15 @@ article {
     display: flex;
     gap: 1em;
     justify-content: flex-end; }
+    @media (max-width: 768px) {
+      .projects .project-description--inner div {
+        justify-content: space-evenly; } }
     .projects .project-description--inner div a {
       color: #C6D4ff;
       font-size: 1.3rem; }
+      @media (max-width: 768px) {
+        .projects .project-description--inner div a {
+          font-size: 3rem; } }
       .projects .project-description--inner div a:hover {
         color: #8EE4AF; }
 

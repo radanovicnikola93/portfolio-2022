@@ -82,10 +82,19 @@
         justify-content: space-between;
         gap: 0.5em;
 
+        @include for-phones-and-tablets-only {
+                    gap: 2em;
+                }
+
         p {
             a {
                 color: $clr--very-light-blue;
             }
+
+            @include for-phones-and-tablets-only {
+                    text-align: justify;
+                    font-size: 1.1rem;
+                }
         }
 
         @include for-phones-and-tablets-only {
@@ -101,6 +110,11 @@
             width: 100%;
 
             color: $clr--emerald-green-soft;
+
+            @include for-phones-and-tablets-only {
+                justify-content: space-evenly;
+                font-size: 1.1rem;
+            }
 
             a {
                 color: $clr--emerald-green-soft;
@@ -118,9 +132,17 @@
             gap: 1em;
             justify-content: flex-end;
 
+            @include for-phones-and-tablets-only {
+                justify-content: space-evenly;
+            }
+
             a {
                 color: $clr--very-light-blue;
                 font-size: 1.3rem;
+
+                @include for-phones-and-tablets-only {
+                    font-size: 3rem;
+                }
 
                 &:hover {
                     color: $clr--emerald-green-light;
