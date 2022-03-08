@@ -44,4 +44,11 @@
             }
         }
     }
+
+    @include for-phones-and-tablets-only {
+        .col {
+            flex-direction: column;
+            text-align: justify;
+        }
+    }
 }

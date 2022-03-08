@@ -630,6 +630,11 @@ header {
       .technologies .col--content ul li a:hover {
         color: #8EE4AF; }
 
+@media (max-width: 768px) {
+  .technologies .col {
+    flex-direction: column;
+    text-align: justify; } }
+
 article {
   min-height: 100vh;
   margin-bottom: 10rem; }
