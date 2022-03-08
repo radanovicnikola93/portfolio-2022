@@ -542,6 +542,19 @@ header {
           color: #A5B1D6; }
           .personal-contact div ul li a:hover {
             color: #8EE4AF; }
+  @media (max-width: 768px) {
+    .personal-contact {
+      position: relative;
+      left: 0;
+      bottom: 3rem;
+      height: auto;
+      width: 80%;
+      margin: 0 auto;
+      display: flex; }
+      .personal-contact div {
+        width: 100%; }
+        .personal-contact div ul {
+          flex-direction: row; } }
 
 .container {
   width: 60%;
