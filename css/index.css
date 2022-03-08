@@ -767,6 +767,12 @@ article {
   justify-content: center;
   align-items: center;
   text-align: center; }
+  @media (max-width: 768px) {
+    .contact {
+      min-height: 50vh;
+      text-align: left; }
+      .contact p {
+        text-align: justify; } }
   .contact .contact__container {
     display: flex;
     flex-direction: column;

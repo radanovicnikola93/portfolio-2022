@@ -4,6 +4,15 @@
     align-items: center; 
     text-align: center;
 
+    @include for-phones-and-tablets-only {
+        min-height: 50vh;
+        text-align: left;
+
+        p {
+            text-align: justify;
+        }
+    }
+
     .contact__container {
         display: flex;
         flex-direction: column;
