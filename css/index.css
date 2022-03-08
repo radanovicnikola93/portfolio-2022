@@ -509,6 +509,19 @@ header {
           color: #A5B1D6; }
           .personal-social-media div ul li a:hover {
             color: #8EE4AF; }
+  @media (max-width: 768px) {
+    .personal-social-media {
+      position: relative;
+      left: 0;
+      bottom: 6rem;
+      height: auto;
+      width: 80%;
+      margin: 0 auto;
+      display: flex; }
+      .personal-social-media div {
+        width: 100%; }
+        .personal-social-media div ul {
+          flex-direction: row; } }
 
 .personal-contact {
   height: 30vh;
