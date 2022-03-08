@@ -484,7 +484,11 @@ header {
   header h1 {
     margin: 0;
     font-family: "Playfair Display", serif;
-    font-size: 7vw; }
+    font-size: 7vw;
+    color: #379683;
+    font-weight: 900; }
+    header h1:hover {
+      color: #8EE4AF; }
   header h2 {
     font-size: 2vw; }
     header h2 span {

@@ -9,6 +9,12 @@ header {
         margin: 0;
         font-family: $ff--playfair-display;
         font-size: 7vw;
+        color: $clr--emerald-green;
+        font-weight: 900;
+        
+        &:hover {
+            color: $clr--emerald-green-light;
+        }
     }
 
     h2 {
