@@ -28,6 +28,11 @@
         justify-content: center;
 
         position: relative;
+
+        @include for-phones-and-tablets-only {
+            flex-direction: column;
+            gap: 2em;
+        }
     }
 
     .project-image {
@@ -43,11 +48,20 @@
 
     .project-description--header {
         text-align: right;
-        
+
+        @include for-phones-and-tablets-only {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
         h5 {
             font-family: $ff--nova-mono;
             font-size: 1.2rem;
             color: $clr--emerald-green-light;
+
+            @include for-phones-and-tablets-only {
+                font-size: 1.7rem;
+            }
         }
     }
 
@@ -67,6 +81,12 @@
         justify-content: space-between;
         gap: 0.5em;
 
+        @include for-phones-and-tablets-only {
+            position: static;
+            transform: translateY(0%);
+            width: 100%;
+        }
+
         ul {
             list-style: none;
             display: flex;
@@ -81,7 +101,7 @@
             display: flex;
             gap: 1em;
             justify-content: flex-end;
-            
+
             a {
                 color: $clr--very-light-blue;
                 font-size: 1.3rem;
@@ -98,11 +118,19 @@
         > div {
             > div {
                 flex-direction: row-reverse;
+
+                @include for-phones-and-tablets-only {
+                    flex-direction: column;
+                }
             }
         }
 
         .project-description--header {
             text-align: left;
+
+            @include for-phones-and-tablets-only {
+                text-align: center;
+            }
         }
 
         .project-description--inner {

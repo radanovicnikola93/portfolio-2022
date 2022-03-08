@@ -685,6 +685,10 @@ article {
   display: flex;
   justify-content: center;
   position: relative; }
+  @media (max-width: 768px) {
+    .projects .projects-gallery__project {
+      flex-direction: column;
+      gap: 2em; } }
 
 .projects .project-image {
   width: 100%; }
@@ -696,10 +700,17 @@ article {
 
 .projects .project-description--header {
   text-align: right; }
+  @media (max-width: 768px) {
+    .projects .project-description--header {
+      text-align: center;
+      margin-bottom: 2em; } }
   .projects .project-description--header h5 {
     font-family: "Nova Mono", monospace;
     font-size: 1.2rem;
     color: #8EE4AF; }
+    @media (max-width: 768px) {
+      .projects .project-description--header h5 {
+        font-size: 1.7rem; } }
 
 .projects .project-description--inner {
   position: absolute;
@@ -714,6 +725,11 @@ article {
   flex-direction: column;
   justify-content: space-between;
   gap: 0.5em; }
+  @media (max-width: 768px) {
+    .projects .project-description--inner {
+      position: static;
+      transform: translateY(0%);
+      width: 100%; } }
   .projects .project-description--inner ul {
     list-style: none;
     display: flex;
@@ -735,8 +751,14 @@ article {
   align-items: flex-end; }
   .projects .learning-projects > div > div {
     flex-direction: row-reverse; }
+    @media (max-width: 768px) {
+      .projects .learning-projects > div > div {
+        flex-direction: column; } }
   .projects .learning-projects .project-description--header {
     text-align: left; }
+    @media (max-width: 768px) {
+      .projects .learning-projects .project-description--header {
+        text-align: center; } }
   .projects .learning-projects .project-description--inner {
     left: 0; }
 
