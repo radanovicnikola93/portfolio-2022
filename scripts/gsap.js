@@ -61,8 +61,8 @@ timeline("#personal-contact", "#personal-contact", 50, 0, 0, 1, 0, 0, 2.4);
 
 // ABOUT ME
 timeline("#header-1", "main", -500, 0, 1, 0.7, 0, 0, 0);
-timeline("#about-me-presentation", "#header-1", 0, 0, 0, 0.7, 1, 0, 0.9);
-timeline("#about-me-image", "#header-1", 0, 0, 0, 0.7, 1, 0, 1.6);
+timeline("#about-me-presentation", "#header-1", 0, 0, 0, 0.7, 1, 0, 1.6);
+timeline("#about-me-image", "#header-1", 0, 0, 0, 0.7, 1, 0, 0.9);
 
 // TECHNOLOGIES
 timeline("#header-2", "#header-2", -500, 0, 1, 0.7, 0, 0, 0);
