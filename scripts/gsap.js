@@ -1,7 +1,6 @@
 gsap.registerPlugin(ScrollTrigger); // add scroll trigger animation
 
 // HEADER
-gsap.from("#header-main", { opacity: 0, duration: 1, delay: 0 });
 gsap.from("#header-sub", { opacity: 0, duration: 1, delay: 1 });
 
 // NAV
@@ -17,11 +16,11 @@ gsap.from("#personal-social-media", {
     opacity: 0,
     duration: 1,
     x: -50,
-    delay: 4,
+    delay: 4.5,
 });
 
 // PERSONAL CONTACTS
-gsap.from("#personal-contact", { opacity: 0, duration: 1, x: 50, delay: 4 });
+gsap.from("#personal-contact", { opacity: 0, duration: 1, x: 50, delay: 4.5 });
 
 // ABOUT ME
 
