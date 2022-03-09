@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Nova+Mono&family=Playfair+Display:wght@400;700;900&display=swap");
 html {
-  line-height: 1.15; }
+  line-height: 1.15;
+  overflow-x: hidden; }
 
 *,
 *::after,
 *::before {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  overflow-x: hidden; }
+  padding: 0; }
 
 main {
   display: block; }
