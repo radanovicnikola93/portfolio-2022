@@ -23,4 +23,20 @@ gsap.from("#personal-social-media", {
 // PERSONAL CONTACTS
 gsap.from("#personal-contact", { opacity: 0, duration: 1, x: 50, delay: 4 });
 
+// ABOUT ME
 
+gsap.from("#header-1", {
+    opacity: 0,
+    duration: 1.1,
+    x: -500,
+});
+gsap.from("#about-me-presentation", {
+    opacity: 0,
+    duration: 1,
+    y: 100,
+});
+gsap.from("#about-me-image", {
+    opacity: 0,
+    duration: 1,
+    y: -100,
+});
