@@ -30,12 +30,14 @@ const timeline = (
         delay: delay,
     });
 };
+
 // HEADER
 timeline("#header-main", "#navigation", 0, 0, 0, 0.7, 150, 0, 0);
 timeline("#header-sub", "#navigation", 0, 0, 0, 0.5, 1, 0, 0.7);
 
 // NAV
 timeline("#nav-logo", "#navigation", 0, 0, 0, 1.5, 0, 180, 1);
+// timeline("#nav-toggler", "#navigation", 0, 0, 0, 3, 0, 0, 0);
 timeline("#nav-about", "#navigation", 0, 0, 0, 0.3, 0, 0, 1.5);
 timeline("#nav-technologies", "#navigation", 0, 0, 0, 0.3, 0, 0, 1.8);
 timeline("#nav-projects", "#navigation", 0, 0, 0, 0.3, 0, 0, 2.1);
@@ -55,17 +57,7 @@ timeline(
 );
 
 // PERSONAL CONTACTS
-timeline(
-    "#personal-contact",
-    "#personal-contact",
-    50,
-    0,
-    0,
-    1,
-    0,
-    0,
-    2.4
-);
+timeline("#personal-contact", "#personal-contact", 50, 0, 0, 1, 0, 0, 2.4);
 
 // ABOUT ME
 timeline("#header-1", "main", -500, 0, 1, 0.7, 0, 0, 0);
@@ -74,11 +66,21 @@ timeline("#about-me-image", "#header-1", 0, 0, 0, 0.7, 1, 0, 1.6);
 
 // TECHNOLOGIES
 timeline("#header-2", "#header-2", -500, 0, 1, 0.7, 0, 0, 0);
-timeline("#col-1", "#col-1", 0, 0, 0, 1.2, 1, 0, 0.3);
-timeline("#col-2", "#col-2", 0, 0, 0, 1.2, 1, 0, 0.3);
-timeline("#col-3", "#col-3", 0, 0, 0, 1.2, 1, 0, 0.3);
-timeline("#col-4", "#col-4", 0, 0, 0, 1.2, 1, 0, 0.3);
-timeline("#col-5", "#col-5", 0, 0, 0, 1.2, 1, 0, 0.3);
-timeline("#col-6", "#col-6", 0, 0, 0, 1.2, 1, 0, 0.3);
-timeline("#col-7", "#col-7", 0, 0, 0, 1.2, 1, 0, 0.3);
-timeline("#col-8", "#col-8", 0, 0, 0, 1.2, 1, 0, 0.3);
+for (let i = 1; i < 9; i++) {
+    // for every column add navigation
+    timeline(`#col-${i}`, `#col-${i}`, 0, 0, 0, 1.2, 1, 0, 0.5);
+}
+
+// PROJECTS
+timeline("#header-3", "#header-3", -500, 0, 1, 0.7, 0, 0, 0);
+timeline("#project-header-1", "#project-header-1", 0, 0, 0.5, 0.8, 0, 20, 0);
+timeline("#project-header-2", "#project-header-2", 0, 0, 0.5, 0.8, 0, -20, 0);
+for (let i = 1; i < 11; i++) {
+    if (i % 2 != 0) {
+        // odd projects are animated from the left side
+        timeline(`#project-${i}`, `#project-${i}`, -1000, 0, 0, 1.2, 1, 0, 0.3);
+    } else {
+        // even projects are animated from the left side
+        timeline(`#project-${i}`, `#project-${i}`, 1000, 0, 0, 1.2, 1, 0, 0.3);
+    }
+}
