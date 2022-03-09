@@ -6,6 +6,8 @@ gsap.from('#nav-technologies', { opacity:0, duration: 0.5, delay: 1})
 gsap.from('#nav-projects', { opacity:0, duration: 0.5, delay: 1.5})
 gsap.from("#nav-contact", { opacity: 0, duration: 0.5, delay: 2 });
 
+// gsap.from("#nav-toggler", { opacity: 0, duration: 1, delay: 1 });
+
 // PERSONAL SOCIAL MEDIA
 gsap.from("#personal-social-media", { opacity: 0, duration: 1, x: -50, delay: 2 });
 
