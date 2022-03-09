@@ -531,6 +531,7 @@ article {
     align-items: center;
     gap: 2rem; }
     .contact .contact__container .btn-contact {
+      margin-bottom: 1rem;
       display: flex;
       align-items: center;
       justify-content: center;
