@@ -71,3 +71,14 @@ timeline(
 timeline("#header-1", "main", -500, 0, 1, 0.7, 0, 0, 0);
 timeline("#about-me-presentation", "#header-1", 0, 0, 0, 0.7, 1, 0, 0.9);
 timeline("#about-me-image", "#header-1", 0, 0, 0, 0.7, 1, 0, 1.6);
+
+// TECHNOLOGIES
+timeline("#header-2", "#header-2", -500, 0, 1, 0.7, 0, 0, 0);
+timeline("#col-1", "#col-1", 0, 0, 0, 1.2, 1, 0, 0.3);
+timeline("#col-2", "#col-2", 0, 0, 0, 1.2, 1, 0, 0.3);
+timeline("#col-3", "#col-3", 0, 0, 0, 1.2, 1, 0, 0.3);
+timeline("#col-4", "#col-4", 0, 0, 0, 1.2, 1, 0, 0.3);
+timeline("#col-5", "#col-5", 0, 0, 0, 1.2, 1, 0, 0.3);
+timeline("#col-6", "#col-6", 0, 0, 0, 1.2, 1, 0, 0.3);
+timeline("#col-7", "#col-7", 0, 0, 0, 1.2, 1, 0, 0.3);
+timeline("#col-8", "#col-8", 0, 0, 0, 1.2, 1, 0, 0.3);
