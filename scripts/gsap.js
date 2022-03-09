@@ -84,3 +84,7 @@ for (let i = 1; i < 11; i++) {
         timeline(`#project-${i}`, `#project-${i}`, 1000, 0, 0, 1.2, 1, 0, 0.3);
     }
 }
+
+// CONTACT
+timeline("#header-4", "#header-4", -500, 0, 1, 0.7, 0, 0, 0);
+timeline("#contact-container", "#contact-container", 0, 0, 0.5, 0.8, 0, 0, 0.3);
