@@ -113,9 +113,9 @@
             <main>
                 <!-- ABOUT ME -->
                 <article class="article-container about-me" id="about-me">
-                    <h2 class="article__header"><span>01.</span> About me</h2>
+                    <h2 class="article__header" id="header-1"><span>01.</span> About me</h2>
                     <div class="about-me__container">
-                        <div class="about-me__container--presentation">
+                        <div class="about-me__container--presentation" id="about-me-presentation">
                             <div class="presentation--intro">
                                 <h3>Intro</h3>
                                 <p>
@@ -153,7 +153,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="about-me__container--image">
+                        <div class="about-me__container--image" id="about-me-image">
                             <img
                                 width="661"
                                 height="721"
@@ -169,12 +169,12 @@
                     class="article-container technologies"
                     id="technologies"
                 >
-                    <h2 class="article__header">
+                    <h2 class="article__header" id="header-2">
                         <span>02.</span> Technologies
                     </h2>
                     <div class="technologies__container">
                         <!-- HTML -->
-                        <div class="col">
+                        <div class="col" id="col-1">
                             <div class="col--header">
                                 <i class="fab fa-html5"></i>
                                 <h3>HTML</h3>
@@ -216,7 +216,7 @@
                         </div>
 
                         <!-- CSS -->
-                        <div class="col">
+                        <div class="col" id="col-2">
                             <div class="col--header">
                                 <i class="fab fa-css3"></i>
                                 <h3>CSS</h3>
@@ -280,7 +280,7 @@
                         </div>
 
                         <!-- JAVASCRIPT -->
-                        <div class="col">
+                        <div class="col" id="col-3">
                             <div class="col--header">
                                 <i class="fab fa-js"></i>
                                 <h3>JavaSript</h3>
@@ -347,7 +347,7 @@
                         </div>
 
                         <!-- GITHUB -->
-                        <div class="col">
+                        <div class="col" id="col-4">
                             <div class="col--header">
                                 <i class="fab fa-git-alt"></i>
                                 <h3>GIT</h3>
@@ -391,7 +391,7 @@
                         </div>
 
                         <!-- CMS -->
-                        <div class="col">
+                        <div class="col" id="col-5">
                             <div class="col--header">
                                 <i class="fas fa-tasks"></i>
                                 <h3>CMS</h3>
@@ -468,7 +468,7 @@
                         </div>
 
                         <!-- DESIGN PROCESS -->
-                        <div class="col">
+                        <div class="col" id="col-6">
                             <div class="col--header">
                                 <i class="fas fa-object-group"></i>
                                 <h3>Design</h3>
@@ -532,7 +532,7 @@
                         </div>
 
                         <!-- PHOTO EDITORS -->
-                        <div class="col">
+                        <div class="col" id="col-7">
                             <div class="col--header">
                                 <i class="fas fa-file-image"></i>
                                 <h3>Photo Editors</h3>
@@ -592,7 +592,7 @@
                         </div>
 
                         <!-- VIDEO EDITORS -->
-                        <div class="col">
+                        <div class="col" id="col-8">
                             <div class="col--header">
                                 <i class="fas fa-film"></i>
                                 <h3>Video Editors</h3>
@@ -627,80 +627,15 @@
 
                 <!-- PROJECTS -->
                 <article class="article-container projects" id="projects">
-                    <h2 class="article__header"><span>03.</span> Projects</h2>
+                    <h2 class="article__header" id="header-3"><span>03.</span> Projects</h2>
 
                     <div class="projects__container">
                         <div class="row real-world-projects">
                             <h3>Real World Projects</h3>
 
                             <div class="projects-gallery">
-                                <!-- NOVA VODA -->
-                                <div class="projects-gallery__project">
-                                    <div class="project-image">
-                                        <a
-                                            href="http://www.novavoda.si/"
-                                            target="_blank"
-                                        >
-                                            <img
-                                                width="1316"
-                                                height="980"
-                                                src="./images/projects/nova-voda.webp"
-                                                alt="Nova Voda"
-                                            />
-                                        </a>
-                                    </div>
-                                    <div class="project-description">
-                                        <div
-                                            class="project-description--header"
-                                        >
-                                            <h4>Nova Voda</h4>
-                                        </div>
-                                        <div class="project-description--inner">
-                                            <p>
-                                                Webpage was created for a water
-                                                company named Nova Voda based in
-                                                Podbrdo, Slovenia.
-                                            </p>
-                                            <ul>
-                                                <li>
-                                                    <a
-                                                        href="https://getbootstrap.com/"
-                                                        target="_blank"
-                                                        >Bootstrap CSS</a
-                                                    >
-                                                </li>
-                                                <li>Vanilla JS</li>
-                                                <li>
-                                                    <a
-                                                        href="https://mattboldt.github.io/typed.js/"
-                                                        target="_blank"
-                                                        >Typed.js</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="https://scrollrevealjs.org/"
-                                                        target="_blank"
-                                                        >ScrollReveal JS</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                            <div>
-                                                <a
-                                                    href="http://www.novavoda.si/"
-                                                    target="_blank"
-                                                    aria-label="Nova Voda website"
-                                                    ><i
-                                                        class="fas fa-external-link-alt"
-                                                    ></i
-                                                ></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
                                 <!-- SHOPI -->
-                                <div class="projects-gallery__project">
+                                <div class="projects-gallery__project" id="project-1">
                                     <div class="project-image">
                                         <a
                                             href="https://shopi.eu/"
@@ -765,6 +700,73 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <!-- NOVA VODA -->
+                                <div class="projects-gallery__project" id="project-2">
+                                    <div class="project-image">
+                                        <a
+                                            href="http://www.novavoda.si/"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                width="1316"
+                                                height="980"
+                                                src="./images/projects/nova-voda.webp"
+                                                alt="Nova Voda"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div class="project-description">
+                                        <div
+                                            class="project-description--header"
+                                        >
+                                            <h4>Nova Voda</h4>
+                                        </div>
+                                        <div class="project-description--inner">
+                                            <p>
+                                                Webpage was created for a water
+                                                company named Nova Voda based in
+                                                Podbrdo, Slovenia.
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://getbootstrap.com/"
+                                                        target="_blank"
+                                                        >Bootstrap CSS</a
+                                                    >
+                                                </li>
+                                                <li>Vanilla JS</li>
+                                                <li>
+                                                    <a
+                                                        href="https://mattboldt.github.io/typed.js/"
+                                                        target="_blank"
+                                                        >Typed.js</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://scrollrevealjs.org/"
+                                                        target="_blank"
+                                                        >ScrollReveal JS</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                            <div>
+                                                <a
+                                                    href="http://www.novavoda.si/"
+                                                    target="_blank"
+                                                    aria-label="Nova Voda website"
+                                                    ><i
+                                                        class="fas fa-external-link-alt"
+                                                    ></i
+                                                ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
                             </div>
                         </div>
 
@@ -773,7 +775,7 @@
 
                             <div class="projects-gallery">
                                 <!-- Health by habit -->
-                                <div class="projects-gallery__project">
+                                <div class="projects-gallery__project" id="project-3">
                                     <div class="project-image">
                                         <a
                                             href="https://radanovicnikola93.github.io/us.byhabit.com/"
@@ -860,7 +862,7 @@
                                 </div>
 
                                 <!-- Space travel -->
-                                <div class="projects-gallery__project">
+                                <div class="projects-gallery__project" id="project-4">
                                     <div class="project-image">
                                         <a
                                             href="https://space-travel-nr.netlify.app/"
@@ -922,7 +924,7 @@
                                 </div>
 
                                 <!-- Advice generator -->
-                                <div class="projects-gallery__project">
+                                <div class="projects-gallery__project" id="project-5">
                                     <div class="project-image">
                                         <a
                                             href="https://advice-generator-nr.netlify.app/"
@@ -981,7 +983,7 @@
                                 </div>
 
                                 <!-- Nikolas weather -->
-                                <div class="projects-gallery__project">
+                                <div class="projects-gallery__project" id="project-6">
                                     <div class="project-image">
                                         <a
                                             href="https://radanovicnikola93.github.io/cs50-final-project/templates/map.html"
@@ -1047,7 +1049,7 @@
                                 </div>
 
                                 <!-- Sunnyside agency -->
-                                <div class="projects-gallery__project">
+                                <div class="projects-gallery__project" id="project-7">
                                     <div class="project-image">
                                         <a
                                             href="https://sunnyside-agency-nr.netlify.app/"
@@ -1107,7 +1109,7 @@
                                 </div>
 
                                 <!-- Sneackers Ecommerce -->
-                                <div class="projects-gallery__project">
+                                <div class="projects-gallery__project" id="project-8">
                                     <div class="project-image">
                                         <a
                                             href="https://radanovicnikola93.github.io/ecommerce-product-page/"
@@ -1162,7 +1164,7 @@
                                 </div>
 
                                 <!-- Time tracking -->
-                                <div class="projects-gallery__project">
+                                <div class="projects-gallery__project" id="project-9">
                                     <div class="project-image">
                                         <a
                                             href="https://radanovicnikola93.github.io/time-tracking-dashboard/"
@@ -1214,7 +1216,7 @@
                                 </div>
 
                                 <!-- Vision 3.0 -->
-                                <div class="projects-gallery__project">
+                                <div class="projects-gallery__project" id="project-10">
                                     <div class="project-image">
                                         <a
                                             href="https://radanovicnikola93.github.io/vision-3.0-clone/"
@@ -1277,7 +1279,7 @@
 
                 <!-- CONTACT -->
                 <article class="article-container contact" id="contact">
-                    <h2 class="article__header"><span>04.</span> Contact</h2>
+                    <h2 class="article__header" id="header-4"><span>04.</span> Contact</h2>
 
                     <div class="contact__container">
                         <p>
