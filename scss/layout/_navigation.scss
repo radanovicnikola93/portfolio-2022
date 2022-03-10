@@ -135,7 +135,7 @@ nav {
             min-width: 100vw;
             top: 11vh;
             height: 92vh;
-            transform: translateY(-120%);
+            transform: translateX(-120%);
             transition: transform 600ms ease;
 
             // Flex
@@ -147,7 +147,7 @@ nav {
         }
 
         .nav__links.active-nav-links {
-            transform: translateY(0%);
+            transform: translateX(0%);
         }
 
         .nav__menu-toggler {

@@ -170,14 +170,14 @@ nav {
       min-width: 100vw;
       top: 11vh;
       height: 92vh;
-      transform: translateY(-120%);
+      transform: translateX(-120%);
       transition: transform 600ms ease; }
       nav .nav__links ul {
         flex-direction: column;
         height: 50%;
         font-size: 1.2rem; }
     nav .nav__links.active-nav-links {
-      transform: translateY(0%); }
+      transform: translateX(0%); }
     nav .nav__menu-toggler {
       display: block; } }
 
