@@ -427,6 +427,16 @@ article {
   .projects .project-image img {
     width: 100%;
     height: auto; }
+    .projects .project-image img.img-desktop {
+      display: block; }
+      @media (max-width: 768px) {
+        .projects .project-image img.img-desktop {
+          display: none; } }
+    .projects .project-image img.img-mobile {
+      display: none; }
+      @media (max-width: 768px) {
+        .projects .project-image img.img-mobile {
+          display: block; } }
 
 .projects .project-description {
   width: 100%; }

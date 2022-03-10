@@ -40,6 +40,22 @@
         img {
             width: 100%;
             height: auto;
+
+            &.img-desktop {
+                display: block;
+
+                @include for-phones-and-tablets-only {
+                    display: none;
+                }
+            }
+
+            &.img-mobile {
+                display: none;
+
+                @include for-phones-and-tablets-only {
+                    display: block;
+                }
+            }
         }
     }
 
@@ -83,8 +99,8 @@
         gap: 0.5em;
 
         @include for-phones-and-tablets-only {
-                    gap: 2em;
-                }
+            gap: 2em;
+        }
 
         p {
             a {
@@ -92,9 +108,9 @@
             }
 
             @include for-phones-and-tablets-only {
-                    text-align: justify;
-                    font-size: 1.1rem;
-                }
+                text-align: justify;
+                font-size: 1.1rem;
+            }
         }
 
         @include for-phones-and-tablets-only {
