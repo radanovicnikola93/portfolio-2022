@@ -1,5 +1,9 @@
-# portfolio-2022
-Creating a new portfolio page
+# Frontend Portfolio page
 
-!! Site still under development !!
-[Live site URL](https://gallant-edison-156239.netlify.app/)
+This is my portfolio page. You can check it [here](https://nikola-radanovic.com).
+
+Built with:
+- Semantic and Accessible HTML
+- SASS (CSS)
+- Vanilla JS
+- Gsap JS (GreenSock) for animations
