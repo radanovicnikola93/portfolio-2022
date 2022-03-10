@@ -165,7 +165,7 @@ function onlyDesktop(px) {
     } else {
         // ----------------------------------------------------MOBILE---------------------------------------------
         // NAV
-        timeline("#nav-logo", "#navigation", 0, 0, 0, 1.5, 0, 180, 0);
+        timeline("#nav-logo", "#navigation", 0, 0, 0, 0.5, 0, 180, 0);
 
         // PERSONAL SOCIAL MEDIA
         timeline(
