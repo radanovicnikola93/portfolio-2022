@@ -2,6 +2,7 @@ html {
     line-height: 1.15;
 
     overflow-x: hidden; // fixes overflow issues made by animation
+    scroll-behavior: smooth;
 }
 
 *,
