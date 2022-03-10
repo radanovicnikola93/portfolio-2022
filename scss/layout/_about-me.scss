@@ -30,6 +30,49 @@
                     list-style: none;
                 }
             }
+
+            .presentation--resume {
+                .btn-resume {
+                    margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            width: 10rem;
+            height: 3em;
+            border: none;
+            border-radius: 1rem;
+            background-color: $clr--emerald-green;
+            padding: 0.5rem 1rem;
+            color: $clr--very-dark-blue;
+            cursor: pointer;
+
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: $clr--emerald-green-light;
+                transform: scale(1);
+                animation: pulse 2s infinite;
+            }
+
+            @keyframes pulse {
+                0% {
+                    transform: scale(0.95);
+                    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+                }
+
+                70% {
+                    transform: scale(1);
+                    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+                }
+
+                100% {
+                    transform: scale(0.95);
+                    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+                }
+            }
+                }
+            }
         }
 
         .about-me__container--image {

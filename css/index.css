@@ -304,6 +304,36 @@ header {
       align-items: flex-start; }
       .about-me .about-me__container .about-me__container--presentation .presentation--hobbies ul {
         list-style: none; }
+      .about-me .about-me__container .about-me__container--presentation .presentation--resume .btn-resume {
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        width: 10rem;
+        height: 3em;
+        border: none;
+        border-radius: 1rem;
+        background-color: #379683;
+        padding: 0.5rem 1rem;
+        color: #09192F;
+        cursor: pointer;
+        text-transform: uppercase; }
+        .about-me .about-me__container .about-me__container--presentation .presentation--resume .btn-resume:hover {
+          background-color: #8EE4AF;
+          transform: scale(1);
+          animation: pulse 2s infinite; }
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7); }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); } }
     .about-me .about-me__container .about-me__container--image {
       width: 50%;
       display: flex;
