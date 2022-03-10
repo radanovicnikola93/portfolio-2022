@@ -261,4 +261,4 @@ function onlyDesktop(px) {
 
 var pixels = window.matchMedia("(min-width:1024px)");
 onlyDesktop(pixels);
-pixels.addEventListener(onlyDesktop);
+pixels.addEventListener('', onlyDesktop);
