@@ -42,6 +42,22 @@
                 width: 340px;
                 height: auto;
 
+                &.img-desktop {
+                    display: block;
+
+                    @include for-phones-and-tablets-only {
+                        display: none;
+                    }
+                }
+
+                &.img-mobile {
+                    display: none;
+
+                    @include for-phones-and-tablets-only {
+                        display: block;
+                    }
+                }
+
                 @include for-phones-and-tablets-only {
                     width: 100%;
                 }
@@ -61,7 +77,7 @@
         .about-me__container--presentation {
             width: 100% !important;
 
-            text-align:justify;
+            text-align: justify;
         }
 
         .about-me__container--image {

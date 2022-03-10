@@ -313,6 +313,16 @@ header {
         border-radius: 1em;
         width: 340px;
         height: auto; }
+        .about-me .about-me__container .about-me__container--image img.img-desktop {
+          display: block; }
+          @media (max-width: 768px) {
+            .about-me .about-me__container .about-me__container--image img.img-desktop {
+              display: none; } }
+        .about-me .about-me__container .about-me__container--image img.img-mobile {
+          display: none; }
+          @media (max-width: 768px) {
+            .about-me .about-me__container .about-me__container--image img.img-mobile {
+              display: block; } }
         @media (max-width: 768px) {
           .about-me .about-me__container .about-me__container--image img {
             width: 100%; } }
