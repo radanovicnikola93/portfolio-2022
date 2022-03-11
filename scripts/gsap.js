@@ -167,6 +167,10 @@ function onlyDesktop(px) {
         // NAV
         timeline("#nav-logo", "#navigation", 0, 0, 0, 0.5, 0, 180, 0);
 
+        // HEADER
+        timeline("#header-main", "#navigation", 0, 0, 0, 0.5, 150, 0, 0);
+        timeline("#header-sub", "#navigation", 0, 0, 0, 0.5, 1, 0, 0.6);
+
         // PERSONAL SOCIAL MEDIA
         timeline(
             "#personal-social-media",
