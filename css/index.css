@@ -435,6 +435,9 @@ article {
   margin: 0 auto;
   width: 80%;
   gap: 10rem; }
+  @media (max-width: 768px) {
+    .projects .projects__container {
+      width: 100%; } }
 
 .projects .row {
   display: flex;

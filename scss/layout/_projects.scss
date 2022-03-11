@@ -5,6 +5,10 @@
         margin: 0 auto;
         width: 80%;
         gap: 10rem;
+
+        @include for-phones-and-tablets-only {
+            width: 100%;
+        }
     }
 
     .row {
