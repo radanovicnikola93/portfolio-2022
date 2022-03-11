@@ -201,7 +201,7 @@ function onlyDesktop(px) {
         timeline("#header-1", "main", 0, 0, 0, 1.2, 1, 0, 0.5);
         timeline(
             "#about-me-presentation",
-            "#header-1",
+            "#about-me-presentation",
             0,
             0,
             0,
@@ -210,7 +210,7 @@ function onlyDesktop(px) {
             0,
             0.5
         );
-        timeline("#about-me-image", "#header-1", 0, 0, 0, 1.2, 1, 0, 0.5);
+        timeline("#about-me-image", "#about-me-image", 0, 0, 0, 1.2, 1, 0, 0.5);
 
         // TECHNOLOGIES
         timeline("#header-2", "#header-2", 0, 0, 0, 1.2, 1, 0, 0.5);
