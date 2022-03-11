@@ -124,7 +124,7 @@ function onlyDesktop(px) {
                 timeline(
                     `#project-${i}`,
                     `#project-${i}`,
-                    -1000,
+                    -50,
                     0,
                     0,
                     1.2,
@@ -137,7 +137,7 @@ function onlyDesktop(px) {
                 timeline(
                     `#project-${i}`,
                     `#project-${i}`,
-                    1000,
+                    50,
                     0,
                     0,
                     1.2,
